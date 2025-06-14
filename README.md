@@ -263,7 +263,7 @@ localhost:1880
 
 ## INSTRUCCIONES PARA LA COLOCACION DE BLOQUES Y LA CONEXION DE NODOS CORRESPONDIENTES EN  **node-red**
 
-#Instrucciones
+# Instrucciones
 
 1.-Colocar bloque *mqqtt in*.
 
