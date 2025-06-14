@@ -254,6 +254,12 @@ node-red
 localhost:1880
 ```
 
+5.-Instalar Dashboard abriendo la pestaña de opciones y elegimos *Manage palette*
+
+6.-Seleccionamos *Install y buscamos node-red-dashboard*.
+
+7.-Seleccionamos *node-red-dashboard*
+
 ## Resultados
 
 
