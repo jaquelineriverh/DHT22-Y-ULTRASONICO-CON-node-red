@@ -1,5 +1,5 @@
 # DHT22-Y-ULTRASONICO-CON-node-red
-ESTE REPOSITORIO MUESTRA COMO PROGRAMAR CON DHT Y ULTRASONICO CON NODE-RED
+ESTE REPOSITORIO MUESTRA COMO PROGRAMAR CON DHT11 Y ULTRASONICO CON NODE-RED
 ## INTRODUCCION
 
 ### DESCRIPCION
@@ -191,16 +191,18 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 ```
 
 
-2.Instalar la libreria de DHT sensor library for ESPx como se muestra en la siguente imagen
+2.Instalar las siguientes librerias como se muestra la siguiente imagen.
+
+- DHT sensor library for ESPx
+
+- ArduinoJson
+
+- WiFi
+
+- PubSubClient
 
 
-![](https://github.com/jaquelineriverh/PRACTICA-ESP32-DHT11/blob/main/DHT.jpg)
-
-3. Instalar la libreria de LiquidCrystal I2C como se muestra en la siguiente imagen
-
-
-
-![](https://github.com/jaquelineriverh/PRACTICA-2-ESP32-CON-DHT11-Y-Lcd/blob/main/libreria%20liquid.png)
+![]()
 
 
 4.Hacer la conexion de HC-SR04 ULTRASONIC Distance sensor con la ESP32 como se muestra en la siguente imagen.
