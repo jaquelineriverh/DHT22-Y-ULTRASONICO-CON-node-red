@@ -209,7 +209,7 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 
 4.Hacer la conexion de HC-SR04 ULTRASONIC Distance sensor y DHT11 con la ESP32 como se muestra en la siguente imagen.
 
-![]()
+![](https://github.com/jaquelineriverh/DHT22-Y-ULTRASONICO-CON-node-red/blob/main/conexion%20ultra%20y%20dth.png)
 
 
 
@@ -217,7 +217,7 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 ### Instrucciónes de operación
 1.Iniciar simulador.
 
-2.Visualizar los datos en el LCD 16x2.
+2.Visualizar los datos
 
 3.Colocar la temperatura y humedad dando doble click al sensor DHT11
 
@@ -225,10 +225,6 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 
 ## Resultados
 
-Cuando haya funcionado, verás los valores dentro del LCD 16x2 como se muestra en la siguente imagen.
-
-
-![](https://github.com/jaquelineriverh/-PRACTICA-ESP32-CON-DHT11-LCD-Y-ULTRASONICO/blob/main/resultados%20para%20distancia.png)
 
 
 
