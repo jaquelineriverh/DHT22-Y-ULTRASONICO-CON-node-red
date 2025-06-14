@@ -221,16 +221,18 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 
 3. Colocar la distancia dando doble click al sensor ultrasonico
 
-## INSTRUCCIONES PARA **node-red**
+   
+
+## INSTRUCCIONES PARA INSTALACION DE **node-red**
 
 ### Requisitos previos
 
-Para poder usar este programa se necesita instalar previamente [NODE-RED](https://nodejs.org/en)
+Para poder usar este programa se necesita descargar el archivo Node.js v22.16.0 previamente en [NODE-RED](https://nodejs.org/en)
 
 ### Instrucciones de preparación de entorno
 
 
-1.- Descargar el archivo Node.js v22.16.0 e instalar el programa correctamente
+1.- Instalar el programa correctamente
 
 
 2.- Entrar al CMD (simbolo del sistema) en modo administrador y escribir lo siguiente:
@@ -259,6 +261,48 @@ localhost:1880
 6.-Seleccionamos *Install y buscamos node-red-dashboard*.
 
 7.-Seleccionamos *node-red-dashboard*
+
+
+
+## INSTRUCCIONES PARA LA COLOCACION DE BLOQUES Y LA CONEXION DE NODOS CORRESPONDIENTES EN  **node-red**
+
+Instrucciones
+1.-Colocar bloque *mqqtt in*.
+
+2.-Configurar el bloque con el puerto mqtt con el ip 52.29.87.71 como se muestra en la imagen
+
+3.-Colocar el bloque *json* y configurarlo como se muestra en la imagen
+
+4.-Colocamos 3 bloques *function* y lo configuramos con el siguente código.
+
+```
+msg.payload = msg.payload.TEMPERATURA;
+msg.topic = "TEMPERATURA";
+return msg
+```
+
+
+```
+msg.payload = msg.payload.HUMEDAD;
+msg.topic = "HUMEDAD";
+return msg;
+```
+
+```
+msg.payload = msg.payload.DISTANCIA;
+msg.topic = "DISTANCIA";
+return msg;
+```
+5.-Colocamos un bloque de *debug*.
+
+
+6.-Colocamos los bloques de chart y gauge correspondientes, con sus respectivas tablas.
+
+
+
+
+
+
 
 ## Resultados
 
