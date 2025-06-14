@@ -229,6 +229,31 @@ Para poder usar este programa se necesita instalar previamente [NODE-RED](https:
 
 ### Instrucciones de preparación de entorno
 
+
+1.- Descargar el archivo Node.js v22.16.0 e instalar el programa correctamente
+
+
+2.- Entrar al CMD (simbolo del sistema) en modo administrador y escribir lo siguiente:
+
+```
+npm install -g --unsafe-perm node-red
+
+```
+
+3.- Comprobar que funciona node-red con el siguente codigo: (con este mismo codigo podemos arrancar el programa siempre que lo necesitemos).
+
+```
+node-red
+```
+
+
+4.-Para abrir la aplicación nos vamos algun explorador y colocamos el siguente link: 
+
+
+```
+localhost:1880
+```
+
 ## Resultados
 
 
