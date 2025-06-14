@@ -243,7 +243,7 @@ npm install -g --unsafe-perm node-red
 node-red
 ```
 
-![]()
+![](https://github.com/jaquelineriverh/DHT22-Y-ULTRASONICO-CON-node-red/blob/main/instalacion%20de%20node%20red%20y%20arranque.png)
 
 
 4.-Para abrir la aplicación nos vamos algun explorador y colocamos el siguente link: 
