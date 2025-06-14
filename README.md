@@ -214,16 +214,11 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 
 
 
-### Instrucciónes de operación
-1.Iniciar simulador.
-
-2.Colocar la temperatura y humedad dando doble click al sensor DHT11
-
-3. Colocar la distancia dando doble click al sensor ultrasonico
 
    
 
 ## INSTRUCCIONES PARA INSTALACION DE **node-red**
+
 
 ### Requisitos previos
 
@@ -248,6 +243,8 @@ npm install -g --unsafe-perm node-red
 node-red
 ```
 
+![]()
+
 
 4.-Para abrir la aplicación nos vamos algun explorador y colocamos el siguente link: 
 
@@ -266,12 +263,22 @@ localhost:1880
 
 ## INSTRUCCIONES PARA LA COLOCACION DE BLOQUES Y LA CONEXION DE NODOS CORRESPONDIENTES EN  **node-red**
 
-Instrucciones
+#Instrucciones
+
 1.-Colocar bloque *mqqtt in*.
 
 2.-Configurar el bloque con el puerto mqtt con el ip 52.29.87.71 como se muestra en la imagen
 
+
+![]()
+
+
+
 3.-Colocar el bloque *json* y configurarlo como se muestra en la imagen
+
+
+![]()
+
 
 4.-Colocamos 3 bloques *function* y lo configuramos con el siguente código.
 
@@ -293,25 +300,64 @@ msg.payload = msg.payload.DISTANCIA;
 msg.topic = "DISTANCIA";
 return msg;
 ```
+
+
 5.-Colocamos un bloque de *debug*.
 
 
 6.-Colocamos los bloques de chart y gauge correspondientes, con sus respectivas tablas.
 
 
+7.- La conexion de bloques esperada se muestra en la siguiente imagen:
+
+
+![]()
 
 
 
+### Instrucciónes de operación
+
+1.Iniciar simulador.
 
 
-## Resultados
+2.Colocar la temperatura y humedad dando doble click al sensor DHT11
 
 
+
+3. Colocar la distancia dando doble click al sensor ultrasonico
+
+
+4. Ir al navegador donde este abierto nuestro node-red y apretar el boton *instanciar*
 
 
 
 
 ![]()
+
+
+5. En el *dash board* apretar en el siguiente boton
+
+
+
+![]()
+
+
+
+
+
+## Resultados.
+
+#SIMULADOR DE WOKWI
+
+![]()
+
+
+#NODE-RED. TABLAS DE DATOS Y GRAFICOS
+
+
+![]()
+
+
 
 ### Evidencias
 
