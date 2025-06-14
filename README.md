@@ -217,11 +217,17 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 ### Instrucciónes de operación
 1.Iniciar simulador.
 
-2.Visualizar los datos
+2.Colocar la temperatura y humedad dando doble click al sensor DHT11
 
-3.Colocar la temperatura y humedad dando doble click al sensor DHT11
+3. Colocar la distancia dando doble click al sensor ultrasonico
 
-4. Colocar la distancia dando doble click al sensor ultrasonico
+## INSTRUCCIONES PARA **node-red**
+
+### Requisitos previos
+
+Para poder usar este programa se necesita instalar previamente [NODE-RED](https://nodejs.org/en)
+
+### Instrucciones de preparación de entorno
 
 ## Resultados
 
@@ -230,12 +236,11 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 
 
 
-![](https://github.com/jaquelineriverh/-PRACTICA-ESP32-CON-DHT11-LCD-Y-ULTRASONICO/blob/main/resultados%20para%20temperatura.png)
+![]()
 
 ### Evidencias
 
 
-https://github.com/user-attachments/assets/da50e77f-b7f1-44fa-8e76-bdde90a2fced
 
 
 
