@@ -270,7 +270,7 @@ localhost:1880
 2.-Configurar el bloque con el puerto mqtt con el ip 52.29.87.71 como se muestra en la imagen
 
 
-![]()
+![](https://github.com/jaquelineriverh/DHT22-Y-ULTRASONICO-CON-node-red/blob/main/mqtt%20in.png)
 
 
 
