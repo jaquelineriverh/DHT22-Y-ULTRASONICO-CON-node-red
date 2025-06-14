@@ -334,7 +334,7 @@ return msg;
 
 
 
-![]()
+![](https://github.com/jaquelineriverh/DHT22-Y-ULTRASONICO-CON-node-red/blob/main/INSTANCIAR.png)
 
 
 5. En el *dash board* apretar en el siguiente boton
