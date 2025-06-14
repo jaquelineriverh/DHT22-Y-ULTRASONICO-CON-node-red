@@ -357,7 +357,7 @@ return msg;
 #NODE-RED. TABLAS DE DATOS Y GRAFICOS
 
 
-![]()
+![](https://github.com/jaquelineriverh/DHT22-Y-ULTRASONICO-CON-node-red/blob/main/DATOS%20BIEN%20NODE.png)
 
 
 
