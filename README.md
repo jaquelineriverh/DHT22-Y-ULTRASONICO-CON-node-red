@@ -341,7 +341,7 @@ return msg;
 
 
 
-![]()
+![](https://github.com/jaquelineriverh/DHT22-Y-ULTRASONICO-CON-node-red/blob/main/ABRIR%20GRAFICAS.png)
 
 
 
