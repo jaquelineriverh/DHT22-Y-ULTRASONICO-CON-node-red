@@ -313,7 +313,7 @@ return msg;
 7.- La conexion de bloques esperada se muestra en la siguiente imagen:
 
 
-![]()
+![](https://github.com/jaquelineriverh/DHT22-Y-ULTRASONICO-CON-node-red/blob/main/bloques.png)
 
 
 
