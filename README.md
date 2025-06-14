@@ -351,7 +351,7 @@ return msg;
 
 #SIMULADOR DE WOKWI
 
-![]()
+![](https://github.com/jaquelineriverh/DHT22-Y-ULTRASONICO-CON-node-red/blob/main/RESULTADO%20NODE%20WOKWI.png)
 
 
 #NODE-RED. TABLAS DE DATOS Y GRAFICOS
