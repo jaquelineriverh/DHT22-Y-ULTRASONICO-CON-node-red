@@ -277,7 +277,9 @@ localhost:1880
 3.-Colocar el bloque *json* y configurarlo como se muestra en la imagen
 
 
-![]()
+
+![](https://github.com/jaquelineriverh/DHT22-Y-ULTRASONICO-CON-node-red/blob/main/json.png)
+
 
 
 4.-Colocamos 3 bloques *function* y lo configuramos con el siguente código.
